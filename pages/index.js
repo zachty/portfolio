@@ -1,4 +1,5 @@
-import Image from 'next/image';
+//landing page -- what do you want them to see first?
+import Image from 'next/image'; //errors pop up with this using static site, maybe switch to amplify?
 
 export default function Home({ formattedDate }) {
     return (
