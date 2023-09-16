@@ -5,6 +5,7 @@ import Link from 'next/link';
 export default function Home({ formattedDate }) {
     return (
         <>
+            {/* nav component? */}
             <nav>
                 <Link href={'/about'}>About me</Link>
                 <Link href={'/contact'}>Contact</Link>

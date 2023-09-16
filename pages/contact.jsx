@@ -3,7 +3,12 @@ export default function Contact() {
     return (
         <div>
             {/* TODO: form? */}
-            <p>contact card</p>
+            <h1>contact card</h1>
+            <p>linkedIn</p>
+            <p>github</p>
+            <p>email</p>
+            <p>phone</p>
+            <div>form here?</div>
         </div>
     );
 }
