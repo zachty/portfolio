@@ -2,6 +2,7 @@
 export default function Resume() {
     return (
         <div>
+            {/* TODO: create skills component, add this to resume page? */}
             <ol>
                 <lil>skill 1</lil>
                 <lil>skill 2</lil>
