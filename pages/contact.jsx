@@ -1,5 +1,5 @@
 //how to contact me
-export default function Resume() {
+export default function Contact() {
     return (
         <div>
             {/* TODO: form? */}

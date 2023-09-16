@@ -1,5 +1,5 @@
 //projects i have worked on
-export default function Resume() {
+export default function Projects() {
     return (
         <div>
             {/* TODO: make project component, class style for this lisyt */}

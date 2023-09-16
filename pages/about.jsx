@@ -1,7 +1,7 @@
 //page about me
 //throw in pics, hobbies, pitch, etc
 import Image from 'next/image';
-export default function Resume() {
+export default function About() {
     return (
         <div>
             <p>
