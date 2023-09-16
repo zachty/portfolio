@@ -4,7 +4,24 @@ import Image from 'next/image';
 export default function Resume() {
     return (
         <div>
-            <p>placeholder for about me</p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis, necessitatibus. Itaque molestias, sint consequatur
+                quaerat totam nobis unde quibusdam, fuga nihil, repellat labore
+                ullam facere sed inventore at perferendis rerum.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis, necessitatibus. Itaque molestias, sint consequatur
+                quaerat totam nobis unde quibusdam, fuga nihil, repellat labore
+                ullam facere sed inventore at perferendis rerum.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis, necessitatibus. Itaque molestias, sint consequatur
+                quaerat totam nobis unde quibusdam, fuga nihil, repellat labore
+                ullam facere sed inventore at perferendis rerum.
+            </p>
         </div>
     );
 }
