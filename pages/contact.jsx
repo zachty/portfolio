@@ -4,10 +4,10 @@ export default function Contact() {
         <div>
             {/* TODO: form? */}
             <h1>contact card</h1>
-            <p>linkedIn</p>
-            <p>github</p>
-            <p>email</p>
-            <p>phone</p>
+            <p>https://www.linkedin.com/in/zach-byerley/</p>
+            <p>https://github.com/zachty</p>
+            <p>zachbyerley@gmail.com</p>
+            <p>317-440-7611</p>
             <div>form here?</div>
         </div>
     );
