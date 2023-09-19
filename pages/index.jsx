@@ -7,10 +7,10 @@ export default function Home({ formattedDate }) {
         <>
             {/* nav component? */}
             <nav>
-                <Link href={'/about'}>About me</Link>
-                <Link href={'/contact'}>Contact</Link>
-                <Link href={'/projects'}>Projects</Link>
-                <Link href={'/resume'}>Resume</Link>
+                <Link href={'/about'}>About me </Link>
+                <Link href={'/resume'}>Resume </Link>
+                <Link href={'/projects'}>Projects </Link>
+                <Link href={'/contact'}>Contact </Link>
             </nav>
             <h1>This site is under construction! Come back soon!</h1>
             <Image
