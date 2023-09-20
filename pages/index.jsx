@@ -1,17 +1,9 @@
 //landing page -- what do you want them to see first?
 import Image from 'next/image'; //errors pop up with this using static site, maybe switch to amplify?
-import Link from 'next/link';
 
 export default function Home({ formattedDate }) {
     return (
         <>
-            {/* nav component? */}
-            <nav>
-                <Link href={'/about'}>About me </Link>
-                <Link href={'/resume'}>Resume </Link>
-                <Link href={'/projects'}>Projects </Link>
-                <Link href={'/contact'}>Contact </Link>
-            </nav>
             <h1>This site is under construction! Come back soon!</h1>
             <Image
                 src="/construction.png"
