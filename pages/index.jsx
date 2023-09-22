@@ -1,5 +1,6 @@
 //landing page -- what do you want them to see first?
 import Image from 'next/image'; //errors pop up with this using static site, maybe switch to amplify?
+import Link from 'next/link';
 
 export default function Home({ formattedDate }) {
     return (
@@ -21,7 +22,7 @@ export default function Home({ formattedDate }) {
             </p>
             <p>This page is static. It was built on {formattedDate}.</p>
             <p>
-                <a href="/ssr">View a server side rendered page.</a>
+                <Link href="/ssr">View a server side rendered page.</Link>
             </p>
             <p>
                 <a href="/qwinuehwqln">view a 404</a>
