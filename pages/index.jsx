@@ -21,7 +21,10 @@ export default function Home({ formattedDate }) {
             </p>
             <p>This page is static. It was built on {formattedDate}.</p>
             <p>
-                <a href="/ssr">View a 404 page.</a>
+                <a href="/ssr">View a server side rendered page.</a>
+            </p>
+            <p>
+                <a href="/qwinuehwqln">view a 404</a>
             </p>
         </>
     );
