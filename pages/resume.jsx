@@ -14,10 +14,10 @@ export default function Resume() {
                 <li>Git</li>
                 <li>Express</li>
                 <li>Sequelize</li>
-                <li>Next.js</li>
+                <li>Next</li>
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>less.js</li>
+                <li>less</li>
                 {/* ^^^ proficient ^^^ */}
                 <li>C++</li>
                 <li>Python</li>
