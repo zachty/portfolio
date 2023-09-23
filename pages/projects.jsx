@@ -4,12 +4,13 @@ export default function Projects() {
     return (
         <div>
             {/* TODO: make project component, class style for this lisyt */}
-            <ul>
-                <li>project1</li>
+            <h1>Projects</h1>
+            <ol>
+                <li></li>
                 <li>project2</li>
                 <li>project3</li>
                 <li>project4</li>
-            </ul>
+            </ol>
         </div>
     );
 }
