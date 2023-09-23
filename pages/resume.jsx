@@ -75,15 +75,34 @@ export default function Resume() {
                         </li>
                     </ul>
                 </li>
-                {/* <li>
-                    <h4>Experience 3</h4>
+                <li>
+                    <h4>
+                        IT Helpdesk Intern | Indianapolis Motor Speedway |
+                        February 2012 - August 2012
+                    </h4>
                     <ul>
-                        <li>point 1</li>
-                        <li>point 2</li>
-                        <li>point 3</li>
+                        <li>
+                            Completed hundreds of work tickets troubleshooting
+                            computer issues for entire company
+                        </li>
+                        <li>
+                            Created over a dozen network users on the motor
+                            speedway network
+                        </li>
+                        <li>
+                            Set up physical hardware for over 100 employees
+                            after remodeling
+                        </li>
+                        <li>
+                            Aided in transition to new telecommunication system
+                        </li>
+                        <li>
+                            Fixed network outages saving the company thousands
+                            of dollars in production costs
+                        </li>
                     </ul>
                 </li>
-                <li>
+                {/* <li>
                     <h4>Experience 4</h4>
                     <ul>
                         <li>point 1</li>
