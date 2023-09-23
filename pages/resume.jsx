@@ -22,7 +22,7 @@ export default function Resume() {
                 <li>Python</li>
                 <li>Matlab</li>
                 <li>Mathematica</li>
-                <li>AWS</li>
+                <li>Amazon Web Services</li>
                 <li>Supabase</li>
             </ul>
             <h3>Experience</h3>
