@@ -10,6 +10,7 @@
         "less": "less-watch-compiler less styles globals.less"
     },
     "dependencies": {
+        "aos": "^2.3.4",
         "less": "^4.2.0",
         "less-watch-compiler": "^1.16.3",
         "next": "13.4.19",
