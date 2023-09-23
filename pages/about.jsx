@@ -1,5 +1,6 @@
 //page about me
 //throw in pics, hobbies, pitch, etc
+//use animate on scroll for this section
 import Image from 'next/image';
 export default function About() {
     return (

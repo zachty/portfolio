@@ -1,4 +1,5 @@
 //downloadable resume?
+//TODO: less constraints on length here so make it a bit longer
 export default function Resume() {
     return (
         <div id="resume">

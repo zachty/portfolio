@@ -1,4 +1,6 @@
 //how to contact me
+//set up external links with icons
+//TODO: get icons
 export default function Contact() {
     return (
         <div>

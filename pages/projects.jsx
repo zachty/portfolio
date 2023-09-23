@@ -1,4 +1,5 @@
 //projects i have worked on
+//animate on scroll here? or maybe find some other exciting way to present the projects
 export default function Projects() {
     return (
         <div>
