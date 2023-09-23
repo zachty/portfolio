@@ -1,5 +1,6 @@
 //downloadable resume?
 //TODO: less constraints on length here so make it a bit longer
+//TODO: use lists, maps, and components to clean up the jsx
 export default function Resume() {
     return (
         <div id="resume">

@@ -3,6 +3,9 @@
 //TODO: make project component
 import Image from 'next/image';
 
+//TODO: list of project objects
+const projects = [];
+
 export default function Projects() {
     return (
         <div>
