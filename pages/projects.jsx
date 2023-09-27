@@ -26,11 +26,11 @@ export default function Projects() {
             {/* TODO: make project component, class style for this lisyt */}
             <h1>Projects</h1>
             <ol>
-                <li>
-                    <Project proj={projects[0]} />
-                </li>
-                <li>project3</li>
-                <li>project4</li>
+                {projects.map((project, idx) => (
+                    <li key={idx}>
+                        <Project proj={project} />
+                    </li>
+                ))}
             </ol>
         </div>
     );
