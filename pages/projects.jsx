@@ -3,7 +3,6 @@
 import Image from 'next/image';
 import Project from '../components/Project'; //<Project proj={projects[0]}
 
-//TODO: make project component, pass each project as a prop
 //TODO: list of project objects
 const projects = [
     {
@@ -23,7 +22,7 @@ const projects = [
 export default function Projects() {
     return (
         <div>
-            {/* TODO: make project component, class style for this lisyt */}
+            {/* TODO: class style for this list */}
             <h1>Projects</h1>
             <ol>
                 {projects.map((project, idx) => (
