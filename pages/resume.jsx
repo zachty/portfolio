@@ -1,4 +1,87 @@
 //downloadable resume?
+//TODO: less constraints on length here so make it a bit longer
+//TODO: use lists, maps, and components to clean up the jsx
+const proSkills = [
+    'Javascript',
+    'Node',
+    'React',
+    'Next',
+    'Redux',
+    'Git',
+    'Express',
+    'Sequelize',
+    'HTML',
+    'CSS',
+    'less',
+];
+const otherSkills = [
+    'C++',
+    'Python',
+    'Matlab',
+    'Mathematica',
+    'Amazon Web Services',
+    'Supabase',
+];
+const experiences = [
+    {
+        title: '',
+        location: '',
+        startDate: '',
+        endDate: '',
+        bullets: [],
+    },
+    {
+        title: '',
+        location: '',
+        date: '',
+        bullets: [],
+    },
+    {
+        title: '',
+        location: '',
+        date: '',
+        bullets: [],
+    },
+];
+const education = [
+    {
+        degree: '',
+        school: '',
+        location: '',
+        year: '',
+        GPA: '',
+        other: '',
+        courses: '',
+    },
+    {
+        degree: '',
+        school: '',
+        location: '',
+        year: '',
+        GPA: '',
+        other: '',
+        courses: '',
+    },
+];
+const involvement = [
+    {
+        company: '',
+        title: '',
+        location: '',
+        startDate: '',
+        endDate: '',
+        bullets: [],
+    },
+    {
+        company: '',
+        title: '',
+        location: '',
+        startDate: '',
+        endDate: '',
+        bullets: [],
+    },
+];
+
 export default function Resume() {
     return (
         <div id="resume">
@@ -13,10 +96,10 @@ export default function Resume() {
                 <li>Git</li>
                 <li>Express</li>
                 <li>Sequelize</li>
-                <li>Next.js</li>
+                <li>Next</li>
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>less.js</li>
+                <li>less</li>
                 {/* ^^^ proficient ^^^ */}
                 <li>C++</li>
                 <li>Python</li>
@@ -74,15 +157,34 @@ export default function Resume() {
                         </li>
                     </ul>
                 </li>
-                {/* <li>
-                    <h4>Experience 3</h4>
+                <li>
+                    <h4>
+                        IT Helpdesk Intern | Indianapolis Motor Speedway |
+                        February 2012 - August 2012
+                    </h4>
                     <ul>
-                        <li>point 1</li>
-                        <li>point 2</li>
-                        <li>point 3</li>
+                        <li>
+                            Completed hundreds of work tickets troubleshooting
+                            computer issues for entire company
+                        </li>
+                        <li>
+                            Created over a dozen network users on the motor
+                            speedway network
+                        </li>
+                        <li>
+                            Set up physical hardware for over 100 employees
+                            after remodeling
+                        </li>
+                        <li>
+                            Aided in transition to new telecommunication system
+                        </li>
+                        <li>
+                            Fixed network outages saving the company thousands
+                            of dollars in production costs
+                        </li>
                     </ul>
                 </li>
-                <li>
+                {/* <li>
                     <h4>Experience 4</h4>
                     <ul>
                         <li>point 1</li>
@@ -121,7 +223,6 @@ export default function Resume() {
                     Present
                     <ul>
                         <li>
-                            {' '}
                             Actively participate in home construction and
                             renovation projects to provide affordable housing
                             for low-income families in the community.
