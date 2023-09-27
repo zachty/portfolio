@@ -17,6 +17,12 @@ const projects = [
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, natus qui! Quibusdam minus est maiores minima excepturi tempore dolorem consectetur, quisquam, cupiditate quia accusamus, nostrum vel a velit rem! Rem.',
         bullets: ['did this on this', 'did this as well'],
     },
+    {
+        title: 'Project 3',
+        description:
+            'Checking to see if I can easily add components and everything works okay. Will need to heavily CSS here and add in the AoS. Feels like its all coming together though!',
+        bullets: ['important point 1', 'maybe a less important point :('],
+    },
 ];
 
 export default function Projects() {
