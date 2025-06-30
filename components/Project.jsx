@@ -10,6 +10,7 @@ export default function Project({ proj }) {
                     <li key={idx}>{bullet}</li>
                 ))}
             </ul>
+            <a href={proj.link}>{proj.link}</a>
         </>
     );
 }
