@@ -4,7 +4,7 @@ body {
   color:black;
 }
 
-a {
+nav a {
   color: #ffffff;
   text-decoration: none;
   border: #ffffff 1px solid;
@@ -15,8 +15,8 @@ a {
 
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
-  background-color: black;
+  background-color: inherit;
   padding: 10px;
 }

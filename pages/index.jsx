@@ -11,7 +11,11 @@ export default function Home({ formattedDate }) {
                 alt="construction icon"
                 width={512}
                 height={512}
+                align="center"style={{ display: 'block', margin: '0 auto' }}
             />
+            <p>
+                Welcome to my website! Browse around and check out my work, read a bit about me, or jump straght to the resume to see if you want to contact me for work! I{'\''}m just messing around with Next.js currently but hope to start a new project soon!
+            </p>
             <p>
                 <a
                     href="https://www.flaticon.com/free-icons/construction"
