@@ -9,7 +9,6 @@ export default function Contact() {
             <p>https://www.linkedin.com/in/zach-byerley/</p>
             <p>https://github.com/zachty</p>
             <p>zachbyerley@gmail.com</p>
-            <p>317-440-7611</p>
             <div>form here?</div>
         </div>
     );
